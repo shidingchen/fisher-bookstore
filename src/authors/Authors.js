@@ -10,13 +10,18 @@ export default class Authors extends Component {
             authors: [
                 {
                     id: 1,
-                    firstname: "Domain Driven Design",
-                    lastname: "Eric Evans",
+                    name: "Eric Evans",
+                    country: "United States",
                 },
                 {
-                    id:8,
-                    firstname: "Magnolia City",
-                    lastname:"Duncan W.Alderson",
+                    id:2,
+                    name: "Duncan W.Alderson",
+                    country:"United States",
+                },
+                {
+                    id:3,
+                    name: "Xun LU",
+                    country:"China",
                 }
             ]
         }
