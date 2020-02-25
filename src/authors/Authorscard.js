@@ -5,8 +5,8 @@ export function Authorscard(props) {
     return(
         <Card style={{ width: "16em"}}>
         <Card.Body>
-            <Card.Title>{props.author.firstname}</Card.Title>
-            <Card.Text>Author: {props.author.lastname}</Card.Text>
+            <Card.Title>{props.author.name}</Card.Title>
+            <Card.Text>Country: {props.author.country}</Card.Text>
         </Card.Body>
         </Card>
     );
