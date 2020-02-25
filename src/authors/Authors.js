@@ -14,9 +14,19 @@ export default class Authors extends Component {
                     country: "Eric Evans",
                 },
                 {
-                    id:8,
+                    id:2,
                     name: "Magnolia City",
                     country:"Duncan W.Alderson",
+                },
+                {
+                    id: 3,
+                    name: "Domain Driven Design",
+                    country: "Eric Evans",
+                },
+                {
+                    id: 4,
+                    name: "Domain Driven Design",
+                    country: "Eric Evans",
                 }
             ]
         }
