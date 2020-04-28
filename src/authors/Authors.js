@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AuthorDisplay } from "./AuthorDisplay";
+import "./Authors.css"
 
 export default function Authors (props) {
     const [data, setData] = useState([]);

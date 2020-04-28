@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BookDisplay } from "./BookDisplay";
+import "./Books.css";
 
 export default function Books(props) {
     const [data, setData] = useState([]);
